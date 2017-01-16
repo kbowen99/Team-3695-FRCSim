@@ -1,0 +1,43 @@
+<robot
+  name="_Field2017.SLDASM">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.152711548544965 -1.55227194051066 0.0109307618486055"
+        rpy="0 0 0" />
+      <mass
+        value="2522.96436537114" />
+      <inertia
+        ixx="44770.6760351311"
+        ixy="-103.522059479223"
+        ixz="67.3893232737676"
+        iyy="60778.5366929088"
+        iyz="0.0655357868431776"
+        izz="18045.2195902787" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://_Field2017.SLDASM/meshes/base_link.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://_Field2017.SLDASM/meshes/base_link.stl" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

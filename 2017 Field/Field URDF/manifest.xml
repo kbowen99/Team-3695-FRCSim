@@ -1,0 +1,6 @@
+<package>
+  <description brief="_Field2017.SLDASM">_Field2017.SLDASM</description>
+  <depend package="gazebo" />
+  <author>me</author>
+  <license>BSD</license>
+</package>
